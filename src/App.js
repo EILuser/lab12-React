@@ -8,6 +8,7 @@ import Products from "./pages/Products.js";
 import Services from "./pages/Services.js";
 import Calculation from "./pages/Calculation.js";
 import MakeRequest from "./pages/MakeRequest.js";
+import Home from "./pages/Home.js";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contacts" element={<Contacts />}/>
         <Route path="/calculation" element={<Calculation />}/>
         <Route path="/make-request" element={<MakeRequest />}/>
+        <Route path="/" element={<Home />} />
       </Routes>
     </div>
   );

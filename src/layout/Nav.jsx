@@ -1,13 +1,12 @@
 import React from "react";
 import calculation from "../images/calculation.svg";
 import measering from "../images/measering.svg";
-import logo from "../images/logo.svg";
 import { Link } from "react-router-dom";
 
 function Nav() {
     return (
         <nav className="navigation">
-            <img src={logo} alt="logo" />
+            <Link to="/" className="logo__link">_________</Link>
             <div className="links">
                 <Link to="/services" className="link">Services</Link>
                 <Link to="/products" className="link">Products</Link>
